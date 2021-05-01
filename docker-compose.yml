@@ -14,7 +14,6 @@ services:
       - VAPID_PRIVATE_KEY=eeeeeeeeeee
       - VAPID_PUBLIC_KEY=fffff
     volumes:
-      - "./config.json:/code/src/config.json"
       - "data:/data/db"
     restart: always
 
