@@ -13,5 +13,6 @@ RUN pip install pytz pycountry humanize python-geoip-geolite2 geoip
 ADD ./docker-entrypoint.sh /docker-entrypoint.sh
 RUN chmod +x /docker-entrypoint.sh
 ADD ./supervisord.conf /etc/supervisord.conf
+ADD ./config.json config.json
 
 CMD ["/docker-entrypoint.sh"]
