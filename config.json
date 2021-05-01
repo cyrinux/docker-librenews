@@ -1,0 +1,23 @@
+{
+  "accounts": [
+    ["@BBCBreaking", "BBC", "Breaking News"],
+    ["@afpfr", "AFP", "Breaking News"],
+    ["@LibreNewsApp", "LibreNews", "Announcements"],
+    ["@zataz", "Zataz", "Breaking News"],
+    ["@ANSSI_FR", "ANSSI", "Breaking News"],
+    ["@GrapheneOS", "GrapheneOS", "Breaking News"],
+    ["@todayininfosec", "TodayInfoSec", "Announcements"],
+    ["@phoronix", "Phoronix", "Announcements"],
+    ["@isa_lagneau", "Isabelle Lagneau", "Breaking News"]
+  ],
+  "twitter": {
+    "access_token": "14068378-tzI7Oik23vaSuLcmaZvFyi16cRuUfZt3TS3AinT6l",
+    "access_token_secret": "qPrEmZy7FPfrNU8zMcyOZKysTfWtAiYuDqPB0NeWW5pjY",
+    "consumer_key": "A9HO71WqWb2gkn8KSXoQ",
+    "consumer_secret": "WZKeD8GhABVkhTmk4R7BiWw7RwVCGH5iaQynQd3g"
+  },
+  "vapid": {
+    "private_key": "BEWELXuqEt0euayrzyZmA-9oYl8XNV9xHDKoJQ2-T3xxrEFJu2ZMB4r5RkQcbLJ2QmFtvWNMy2-QLSMLs3xcuuY",
+    "public_key": "NFbCB0aLaohGWIU93STVaahbikdz9E3lx3iJmDGCemk"
+  }
+}

@@ -1,0 +1,22 @@
+version: "3.7"
+
+services:
+  librenews:
+    image: cyrinux/librenews
+    build: .
+    ports:
+      - "8888:8888"
+    environment:
+      - TWITTER_ACCESS_TOKEN=aaaa
+      - TWITTER_ACCESS_TOKEN_SECRET=bbb
+      - TWITTER_CONSUMER_KEY=cccccc
+      - TWITTER_CONSUMER_SECRET=ddddddd
+      - VAPID_PRIVATE_KEY=eeeeeeeeeee
+      - VAPID_PUBLIC_KEY=fffff
+    volumes:
+      - "./config.json:/code/src/config.json"
+      - "data:/data/db"
+    restart: always
+
+volumes:
+  data:
